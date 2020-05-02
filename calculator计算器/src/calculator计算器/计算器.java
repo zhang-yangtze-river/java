@@ -57,7 +57,7 @@ public class ¼ÆËãÆ÷ {
 		textField = new JTextField();
 		textField.setFont(new Font("ËÎÌå", Font.BOLD, 20));
 		textField.setHorizontalAlignment(SwingConstants.RIGHT);
-		textField.setBounds(10, 10, 256, 93);
+		textField.setBounds(10, 10, 256, 100);
 		frame.getContentPane().add(textField);
 		textField.setColumns(10);
 
