@@ -10,7 +10,6 @@ import javax.swing.JButton;
 public class 输出数组最小值 {
 
 	private JFrame frame;
-	private JTextField textField;
 
 	/**
 	 * Launch the application.
@@ -42,10 +41,6 @@ public class 输出数组最小值 {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
-		textField = new JTextField();
-		frame.getContentPane().add(textField, BorderLayout.NORTH);
-		textField.setColumns(10);
 	}
 
 }
